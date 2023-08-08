@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: cursive;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 95px;
+    background-image: url(./imahes/navbar.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+.nav-bar img{
+    width: 100px;
+}
+
+.sp{
+    width: 900px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad{
+    height: 100%;
+    display: flex ;
+    align-items: center;
+
+}
+
+.ad:hover{
+    background-color: rgb(13, 203, 124);
+}
+
+.sp a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.hero{
+    width: 100%;
+    height: 450px;
+    background-image: url(./imahes/solang.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.land{
+    width: 100%;
+    height: 110vh;
+    margin-top: 25px;
+}
+
+.land h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.land-big1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 150px;
+}
+
+.land-mini1{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/himalaya.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.land-mini1 h4{
+    color: white;
+    font-size: 22px;
+}
+
+.land-mini1 h5{
+    color: red;
+
+}
+
+.land-mini1 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.land-mini2{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/flora..jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.land-mini2 h4{
+    color: white;
+    font-size: 22px;
+}
+
+
+.land-mini2 h5{
+    color: red;
+    
+}
+
+.land-mini2 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.land-mini3{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/fairs.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.land-mini3 h4{
+    color: white;
+    font-size: 22px;
+}
+
+.land-mini3 h5{
+    color: red;
+    
+}
+
+.land-mini3 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.land-big2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 150px;
+    margin-top: 20px;
+}
+
+.land-mini4{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/cusine.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.land-mini4 h4{
+    color: white;
+    font-size: 22px;
+}
+
+.land-mini4 h5{
+    color: red;
+    
+}
+
+.land-mini4 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.land-mini5{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/cucling.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.land-mini5 h4{
+    color: white;
+    font-size: 22px;
+}
+
+.land-mini5 h5{
+    color: red;
+    
+}
+
+.land-mini5 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.land-mini6{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/culture.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.land-mini6 h4{
+    color: white;
+    font-size: 22px;
+}
+
+.land-mini6 h5{
+    color: red;
+    
+}
+
+.land-mini6 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.state{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(18, 35, 61);
+}
+
+.left{
+    width: 40%;
+    height: 450px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+.right{
+    width: 40%;
+    height: 450px;
+    background-image: url(./imahes/sheep.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.destination{
+    width: 100%;
+    height: 600px;
+    margin-top: 25px;
+    padding-inline: 120px;
+}
+
+.big-box{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img-sec{
+    width: 650px;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.big1{
+    width: 600px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.mini1{
+    width: 290px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.chota1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.chota1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.chota2{
+    width: 140px;
+    height: 140px;
+    color: black;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chota2 a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
+.mini2{
+    width: 290px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big2{
+    width: 600px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.text-sec{
+    width: 600px;
+    height: 400px;
+        align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.social{
+    width: 100%;
+    height: 90px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./imahes/navbar.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 50px;
+    margin-bottom: 20px;
+
+}
+
+.social h2{
+    color: white;
+}
+
+.list-sec{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-sec ul li{
+    font-size: 12px;
+    list-style: none;
+    margin-top: 8px;
+}
+
+
+.a1122{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    padding-inline: 330px;
+}
+
+.footer p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer h5{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* responsive css */
+
+
+@media (max-width:768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    
+    .nav-bar{
+        width: 100%;
+        height: 95px;
+        align-items: center;
+        justify-content: center;
+  
+    }
+    
+    .nav-bar img{
+        width: 100px;
+    }
+    
+    .sp{
+
+        display: none;
+    }
+    
+    
+    .land{
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+ 
+    
+    .land-big1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .land-mini1{
+        width: 350px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    
+
+    
+    .land-mini2{
+        margin-top: 15px;
+    }
+
+    
+    .land-mini3{
+        margin-top: 15px;
+    }
+    
+ 
+    
+    
+    .land-big2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    
+    }
+    
+    .land-mini4{
+        margin-top: 15px;
+    }
+    
+    
+    
+    .land-mini5{
+        margin-top: 15px;
+    }
+    
+    
+    
+    .land-mini6{
+        margin-top: 15px;
+    }
+
+    
+    .state{
+        width: 100%;
+  height: auto;
+  flex-direction: column;
+    }
+    
+    .left{
+        width: 100%;
+        height: 450px;
+    }
+
+    
+    
+    .right{
+        width: 100%;
+        margin-inline: 25px;
+    }
+    
+    .destination{
+        width: 100%;
+        height: auto;
+    }
+    
+    .big-box{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    
+    
+    
+    .social{
+        width: 100%;
+        height: 190px;
+        flex-direction: column;
+    
+    }
+    
+  
+    
+    .list-sec{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+    
+    .list-sec ul{
+        margin-top: 20px;
+
+    }
+
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-inline: 150px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    
+    
+}
